@@ -1,7 +1,6 @@
 name: Hello Flow
 on:
-  schedule:
-    - cron: '7,17,27,37,47,57 * * * *'  # a cada 10 min, fora dos minutos redondos (UTC)
+  push
 jobs:
   first-job:
     runs-on: ubuntu-latest
